@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <div class="main">  
+        <div class="logo">
+            <img src="./logo.jpg">
+        </div>        
+        <nav>
+            <ul class="sidebar">
+                <li onclick= hideSideBar() >
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path fill="#f7f9fc" d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a>
+                </li>
+                <li><a href="#home" style="--i:1"><strong>Home</strong></a></li>
+                <li><a href="#about" style="--i:2"><strong>About</strong></a></li>
+                <li><a href="#skills" style="--i:3"><strong>Skills</strong></a></li>
+                <li><a href="#services" style="--i:4"><strong>Services</strong></a></li>
+                <li><a href="#contact" style="--i:5"><strong>Contact</strong></a></li>
+                <li><input type="text" placeholder="search...."  class="search-input"></li>
+                    
+            </ul>
+            <ul>
+                
+                <li class="menu-button" onclick= showSidebar()> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path fill="#f7f9fc" d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                    
+            </ul>
+                
+        </nav>
+    </div>
+        
+    <header class="header">               
+        <nav class="navbar">          
+            <a href="#home" style="--i:1"><strong>Home</strong></a>
+            <a href="#about" style="--i:2"><strong>About</strong></a>
+            <a href="#skills" style="--i:3"><strong>Skills</strong></a>        
+            <a href="#services" style="--i:4"><strong>Services</strong></a>
+            <a href="#contact" style="--i:5"><strong>Contact</strong></a>
+        </nav>
+        <div class="search">
+            <div class="search-container">
+                <from>
+                    <input  placeholder="search...."  class="search-input">
+                </from>
+            
+            </div>
+    
+        </div>
+
+        
+    </header>
+    <section>
+        <div class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, It's me</h3>
+                <h1 style="color: rgba(245, 153, 5, 0.544);">Susmita Maity</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+        
+                <div class="icons">
+                    <a href="https://github.com/Susmita-Maity" style="--i:6"><i class="fa-brands fa-github"></i></a> 
+                    <a href="https://x.com/Drayogi82218663" style="--i:7"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="linkedin.com/in/susmita-maity-9b7b58286" style="--i:7"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?igsh=ptu7s0gbzdsx&utm_content=kmnibrz" style="--i:8"><i class="fa-brands fa-instagram"></i></a> 
+                </div> 
+                <br/> 
+                <a href="#" class="btn-box">Download Resume</a>
+                
+            </div>  
+            <div class="home-img">
+                <img src="para-3.jpeg" id="h-tag">
+                <br/>
+                <img src="./giphy.webp" alt="Name" id="hero">
+                <br/>
+                <img src="./para-4.jpeg" id="b-tag">
+            </div>   
+        </div>
+        
+    </section>
+    <br/>
+    <section>
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="./para-1.gif" alt="gif" id="para-1">
+                <span> <img src="./giphy-2.webp" alt="About" id="hero-2"></span> 
+                <span><img src="./para-2.gif" alt="gif" id="para-2"></span><br>
+            </div>
+            <!--About-->
+            <div class="about-text" id="about">
+                <h2>About<span> Me </span></h2>
+                <br/>
+                <p><strong>Hello! I'm <span style="color: rgba(250, 169, 28, 0.544);">Susmita</span></strong> a Full Stack Developer with the goal of advancing my career and participating in inspiring projects.Here I present my work and my passion for web development.<br/> I am a dedicated and passionate Full Stack Developer with expertise in both front-end and back-end technologies. With a robust background in developing and designing web applications, I bring a comprehensive approach to building scalable and efficient software solutions.I excel in creating responsive and dynamic user interfaces, as well as developing powerful server-side logic. My skill set includes proficiency in a wide range of programming languages, frameworks, and tools, enabling me to adapt to the evolving demands of the tech industry.I thrive on solving complex problems and am constantly seeking opportunities to learn and grow in this ever-changing field. Let's connect and create something amazing together!</p>
+                <br/>
+                <a href="./Resume_Susmita_Maity.docx" class="btn-box">More About Me</a>
+            </div>
+        </div>
+    </section>
+    <br/>
+    <!--Services-->
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div id="S">
+                        <i class="fa-solid fa-code" style="color: #09daf6;"></i>
+                        <h2>Web Design</h2>
+                        <p>Our web design services are crafted to provide visually appealing, user-friendly, and responsive websites. We ensure that each design aligns with the latest industry trends and meets the unique needs of your business.<strong>Services Offered -</strong> We offer custom website design, creating tailored designs that reflect your brand identity and optimize user experience (UX) to enhance visitor engagement. Our responsive web design ensures your website looks and functions seamlessly on all devices, including desktops, tablets, and mobile phones, with adaptive layouts for optimal viewing and interaction.</p>
+                        <a href="https://github.com/Susmita-Maity" class="btn-box">Learn more</a>
+                    </div>
+                    <div id="S">
+                        <i class="fa-solid fa-paintbrush" style="color: #1fe0f9;"></i>
+                        <h2>Web Development</h2>
+                        <p>Our web development services focus on creating powerful, scalable, and secure websites and web applications. We leverage the latest technologies to ensure optimal performance and functionality, tailored to your business needs.<strong>Services Offered -</strong> We specialize in custom web development, building websites from the ground up to meet your specific requirements. Our expertise includes developing dynamic and interactive websites that provide an excellent user experience.</p>
+                        <a href="./Internshala Full Stack Development .png" class="btn-box">Learn more</a>
+                    </div>
+                    <div id="S">
+                        <i class="fa-solid fa-database" style="color: #0be4f4;"></i>
+                        <h2>Database</h2>
+                        <p>Our database services are designed to ensure your data is organized, secure, and eions for database design, development, management, and optimization, tailored to your specific business needs.<strong>Services Offered -</strong> We offer custom database design, creating structured databases that support your business operations and goals. Our designs focus on scalability, ensuring your database can grow with your business. We also specialize in database development, using the latest technologies to build robust, high-performance databases.</p>
+                        <a href="./DBMS certificate.png" class="btn-box">Learn more</a>
+                    </div>
+                    <div id="S">
+                        <i class="fa-solid fa-apple-whole" style="color: #0ff0d6;"></i>
+                        <h2>AI-Generated Chatbot</h2>
+                        <p>Our AI-generated chatbot services leverage advanced artificial intelligence and natural language processing (NLP) technologies to create intelligent, responsive, and user-friendly chatbots. These chatbots are designed to enhance customer engagement, automate repetitive tasks, and provide seamless user experiences.<strong>Services Offered -</strong> We offer custom chatbot development, creating AI-driven chatbots tailored to your specific business needs. Our chatbots are designed to handle various tasks, including customer service, lead generation, and sales support, also assistant & studysupport.</p>
+                        <a href="./PixelruBot QR.jpg" class="btn-box">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <br/>
+    <!--Skills-->
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section>
+        <!---linear bar-->
+        <div class="skills" id="skills">
+            <div class="linear">
+                <li><h3>HTML<i class="fa-brands fa-html5" style="color: #cf8815;"></i></h3>
+                    <span class="bar"><span class="html"></span>90%</span>
+                </li>  <br>          
+                <li><h3>CSS<i class="fa-brands fa-css3" style="color: #4d70ac;"></i></h3>
+                    <span class="bar"><span class="css"></span>89%</span>
+                </li><br/>
+                <li><h3>Javascript<i class="fa-brands fa-js" style="color: #bd906e;"></i></h3>
+                    <span class="bar"><span class="js"></span>88%</span>
+                </li><br/>
+                <li><h3>React<i class="fa-brands fa-react" style="color: #6b0d20;"></i></h3>
+                    <span class="bar"><span class="react"></span>86%</span>
+                </li><br/>
+                <li><h3>Node JS<i class="fa-brands fa-node" style="color: #9b5b4b;"></i></h3>
+                    <span class="bar"><span class="nodeJS"></span>84%</span>
+                </li><br/>
+                <li><h3>C<i class="fa-brands fa-codepen" style="color: #4c0b71;"></i></h3>
+                    <span class="bar"><span class="c"></span>88%</span>
+                </li><br/>
+                <li><h3>Java<i class="fa-brands fa-java" style="color: #e194a1;"></i></h3>
+                    <span class="bar"><span class="java"></span>83%</span>
+                </li><br>
+                <li><h3>Python<i class="fa-brands fa-python" style="color: #4c410a;"></i></h3>
+                    <span class="bar"><span class="python"></span>88%</span>
+                </li><br/>
+                <li><h3>SQL<i class="fa-solid fa-database" style="color: #640e57;"></i></h3>
+                    <span class="bar"><span class="sql"></span>87%</span>
+                </li><br/>
+                <li><h3>DBMS<i class="fa-regular fa-database" style="color: #ccd341;"></i></h3>
+                    <span class="bar"><span class="dbms"></span>83%</span>
+                </li><br/>
+                <li><h3>Artificial Intelligence<i class="fa-solid fa-robot" style="color: #2d732b;"></i></h3>
+                    <span class="bar"><span class="AI"></span>87%</span>
+                </li>
+        
+            </div>
+        </div>
+        <!---Circular bar-->
+        <div class="skills">
+            <div class="circular">
+                <div class="circle" data-degree="90" data-color=" #0ff0d6"> 
+                    <h2 class="number">90<span>%</span></h2>
+                    <h4>Creativity</h4>
+                </div>
+                <div class="circle" data-degree="88" data-color="#ff2972">
+                    <h2 class="number">88<span>%</span></h2>
+                    <h4>Team Work</h4>
+                </div>       
+                <div class="circle" data-degree="86" data-color="#d9a411">
+                    <h2 class="number">86<span>%</span></h2>
+                    <h4>Problem Solving</h4>
+                </div>
+                <div class="circle" data-degree="84" data-color="#20660a">
+                    <h2 class="number">84<span>%</span></h2>
+                    <h4>Communication</h4>
+                </div>  
+                            
+                
+            </div>
+            
+        </div>
+    
+    </section>
+    <br/>
+    <!---Certificate-->
+    <h3 class="sub-title">Certificate <span>Section</span></h3>
+    <section>
+        <div class="Certificate">
+            <a href="./Internshala Full Stack Development .png" class="b-box">Full stack development</a>
+            <a href="./Artificial intelligence certificate .png" class="b-box">Artificial intelligence</a>
+            <a href="./AI_Internship_Certificate .jpg" class="b-box">AI Internship</a>
+            <a href="./generative AI.png" class="b-box">Generative AI</a>
+            <a href="./python certificate.png" class="b-box">Python</a>
+            <a href="./SQL certificate.png" class="b-box">SQL</a>
+            <a href="./DBMS certificate.png" class="b-box">DBMS</a>
+            <a href="./Internshal HTML&CSS.png" class="b-box">HTML & CSS</a>
+            <a href="./Internshala Git .png" class="b-box">GitHub</a>
+            <a href="./Javascript -Internshala.png" class="b-box">JavaScript</a>
+        </div>
+    </section>
+    <br/>
+    <!---Projects-->
+<section>
+    <div id="portfolio" id="project">
+        <div class="main-text" id="project">
+            <h2>Latest <span>Project</span></h2>
+
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="./img-1.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5>Virtual Project</h5>                        
+                        <a href="https://susmita-maity.github.io/StonePaperScissors_Game/" class="b-box">Visit It</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./img-2.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5>AI Model</h5>
+                        <a href="./HealthBot QR.jpg" class="b-box">Visit It</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./img-3.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5> Ecommerce Project</h5>
+                        <a href="https://susmita-maity.github.io/Amazon.com/" class="b-box">Visit It</a>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./img-4.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5>Team Project</h5>
+                        <a href="https://susmita-maity.github.io/TicTacToe_Game/" class="b-box">Visit It</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./img-5.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5>Web Scrapper</h5>
+                        <a href="https://susmita-maity.github.io/Weather-Forecast-Application-Project/" class="b-box">Visit It</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./img-6.jpg" height="300px" width="350px">
+                    <div class="layer">
+                        <h5>CC Project</h5>
+                        <a href="https://github.com/Susmita-Maity" class="b-box">Visit It</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br/>
+<h1 class="sub-title">Contact <span>Me</span></h1>
+<section>
+    <div class="contact" id="contact">
+        <form> 
+            <input type="text" id="firstname" placeholder="First Name" required>
+            <input type="text" id="lastname" placeholder="Last Name" required>
+            <br/>
+            <input type="email" id="mail" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type your message here..... </h4>
+            <textarea></textarea>
+            <input type="submit" value="Send Message" id="botton">
+        </form>      
+    </div>
+</section>
+<br/>
+<br/>
+<section>
+    <footer class="footer" id="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="./logo.jpg">
+            </div> 
+            <h1 style="color: #ccd341;"><strong>Susmita Maity</strong></h1>
+            <p>Smaity&#169;All Rights Reserved - 2024</p>
+            <div class="icons">
+                <a href="mailto:smaitysusmita2002@gmail.com" style="--i:9"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+91 9339386524" style="--i:10"><i class="fa-solid fa-phone-flip"></i></i></a>
+            </div>
+        </div>
+        <div class="footer-2">
+            <h2 style="color: #ccd341;">Portfolio Links</h2>
+            <nav class="navbar">          
+                <a href="#home" style="--i:1"><strong>Home</strong></a>
+                <a href="#about" style="--i:2"><strong>About</strong></a>
+                <a href="#skills" style="--i:3"><strong>Skills</strong></a>
+                <a href="#services" style="--i:4"><strong>Services</strong></a>
+                <a href="#project" style="--i:11"><strong>Projects</strong></a>
+                <a href="#contact" style="--i:5"><strong>Contact</strong></a>
+                
+            </nav>
+        </div>
+        <div class="footer-3">
+            <h2 style="color: #ccd341;">Social Links</h2>
+            <div class="icons">
+                <a href="https://github.com/Susmita-Maity" style="--i:6"><i class="fa-brands fa-github"></i></a> 
+                <a href="https://x.com/Drayogi82218663" style="--i:7"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/susmita-maity-9b7b58286" style="--i:7"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?igsh=ptu7s0gbzdsx&utm_content=kmnibrz" style="--i:8"><i class="fa-brands fa-instagram"></i></a> 
+            </div> 
+        </div>
+    </footer>
+</section>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
